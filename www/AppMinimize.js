@@ -3,7 +3,7 @@ var appMinimize = {
     cordova.exec(successCallback, errorCallback, 'AppMinimize', 'minimize', []);
   },
   
-  sentToBackground: function(successCallback, errorCallback) {
+  sendToBackground: function(successCallback, errorCallback) {
     cordova.exec(successCallback, errorCallback, 'AppMinimize', 'sendToBackground', []);  
   }
 }
