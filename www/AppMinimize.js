@@ -1,4 +1,4 @@
-var appMinimize2 = {
+var appMinimize = {
   minimize: function (successCallback, errorCallback) {
     cordova.exec(successCallback, errorCallback, 'AppMinimize', 'minimize', []);
   },
@@ -10,5 +10,5 @@ var appMinimize2 = {
 
 if (!window.plugins) { window.plugins = {}; }
 
-window.plugins.appMinimize2 = appMinimize2;
-return window.plugins.appMinimize2;
+window.plugins.appMinimize = appMinimize;
+return window.plugins.appMinimize;
