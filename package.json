@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-appminimize2",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is a cordova plugin to minimize or send to background the application in android devices.",
   "cordova": {
     "id": "cordova-plugin-appminimize2",
