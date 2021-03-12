@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-appminimize2" version="2.0.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-appminimize" version="1.1.0">
 
 
-	<name>AppMinimize2</name>
+	<name>AppMinimize</name>
 	<description>This is a cordova plugin to minimize (or send to background) the application on android devices</description>
 	<license>MIT</license>
 	<keywords>cordova, ionic, minimize, background, android</keywords>
 
-        <js-module src="www/AppMinimize.js" name="AppMinimize2">
-            <clobbers target="cordova.plugins.appMinimize2" />
+        <js-module src="www/AppMinimize.js" name="AppMinimize">
+            <clobbers target="cordova.plugins.appMinimize" />
 	</js-module>
 
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-		<feature name="AppMinimize2">
-			<param name="android-package" value="dlatikaynen.AppMinimize2"/>
+		<feature name="AppMinimize">
+			<param name="android-package" value="dlatikaynen.AppMinimize"/>
 		</feature>
     </config-file>
 
-    <source-file src="src/android/AppMinimize.java" target-dir="src/dlatikaynen/appminimize2"/>
+    <source-file src="src/android/AppMinimize.java" target-dir="src/dlatikaynen/appminimize"/>
 
   </platform>
 
