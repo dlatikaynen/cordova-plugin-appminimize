@@ -1,6 +1,6 @@
 # cordova-plugin-appminimize [![License](https://img.shields.io/github/license/tomloprod/cordova-plugin-appminimize.svg)](http://www.opensource.org/licenses/mit-license.php)
 
-**AppMinimize** is a cordova plugin to minimize the application in android devices
+**AppMinimize** is a cordova plugin to minimize (or send to background) the application on android devices
 
 ## Supported Platforms
 
