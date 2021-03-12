@@ -6,7 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import android.content.Intent;
 
-public class AppMinimize2 extends CordovaPlugin
+public class AppMinimize extends CordovaPlugin
 {
 	@Override
 	public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException
