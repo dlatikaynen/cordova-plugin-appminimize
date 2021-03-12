@@ -14,7 +14,7 @@ Cordova:
 
 ## Usage
 
-This plugin exports an object with one method called "minimize":
+This plugin exports an object with one method called "minimize" and another one called "sendtobackground":
 
 ```javascript
 window.plugins.appMinimize.minimize();
@@ -29,10 +29,15 @@ $ionicPlatform.registerBackButtonAction(function (event) {
     event.preventDefault();
     window.plugins.appMinimize.minimize();
 }, 100);
+  
+$ionicPlatform.registerBackButtonAction(function (event) {
+    event.preventDefault();
+    window.plugins.appMinimize.sendtobackground();
+}, 100);
 ```
 
 
-## Ionic Example
+## TypeScript Example
 
 In this example the application is minimized by pressing the back button
 
@@ -52,5 +57,9 @@ constructor(private appMinimize: AppMinimize) { }
 
 this.platform.registerBackButtonAction(() => {
     this.appMinimize.minimize();
+});
+  
+this.platform.registerBackButtonAction(() => {
+    this.appMinimize.sendtobackground();
 });
 ```
