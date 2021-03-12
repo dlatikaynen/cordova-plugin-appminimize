@@ -14,7 +14,7 @@ Cordova:
 
 ## Usage
 
-This plugin exports an object with one method called "minimize" and another one called "sendtobackground":
+This plugin exports an object with one method called "minimize" and another one called "sendToBackground":
 
 ```javascript
 window.plugins.appMinimize.minimize();
@@ -32,7 +32,7 @@ $ionicPlatform.registerBackButtonAction(function (event) {
   
 $ionicPlatform.registerBackButtonAction(function (event) {
     event.preventDefault();
-    window.plugins.appMinimize.sendtobackground();
+    window.plugins.appMinimize.sendToBackground();
 }, 100);
 ```
 
@@ -60,6 +60,6 @@ this.platform.registerBackButtonAction(() => {
 });
   
 this.platform.registerBackButtonAction(() => {
-    this.appMinimize.sendtobackground();
+    this.appMinimize.sendToBackground();
 });
 ```
