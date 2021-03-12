@@ -18,6 +18,8 @@ This plugin exports an object with one method called "minimize" and another one 
 
 ```javascript
 window.plugins.appMinimize.minimize();
+  
+window.plugins.appMinimize.sendToBackground();
 ```
 
 ## Ionic Example
