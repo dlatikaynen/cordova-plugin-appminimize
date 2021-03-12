@@ -15,11 +15,11 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
 		<feature name="AppMinimize">
-			<param name="android-package" value="dlatikaynen.AppMinimize"/>
+			<param name="android-package" value="tomloprod.AppMinimize"/>
 		</feature>
     </config-file>
 
-    <source-file src="src/android/AppMinimize.java" target-dir="src/dlatikaynen/appminimize"/>
+    <source-file src="src/android/AppMinimize.java" target-dir="src/tomloprod/appminimize"/>
 
   </platform>
 
